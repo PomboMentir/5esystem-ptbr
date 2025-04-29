@@ -1,0 +1,41 @@
+{
+  "id": "DND5e-PTBR",
+  "title": "DND5e PTBR",
+  "description": "Traduz o sistema DND5e para Português do Brasil",
+  "version": "v0.0.1",
+  "authors": [
+    {
+      "name": "Pombo",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json",
+      "flags": {}
+    }
+  ],
+  "manifest": ""
+}

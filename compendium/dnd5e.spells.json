@@ -1,0 +1,99 @@
+{
+  "label": "Magias (SRD)",
+  "mapping": {
+    "sources": {
+      "path": "system.source",
+      "converter": "source"
+    },
+    "range": {
+      "path": "system.range",
+      "converter": "range"
+    },
+    "target": {
+      "path": "system.target",
+      "converter": "target"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
+  },
+  "folders": {
+    "Cantrip": "Cantrip",
+    "1st Level": "1º Nível",
+    "2nd Level": "2º Nível",
+    "3rd Level": "3º Nível",
+    "4th Level": "4º Nível",
+    "5th Level": "5º Nível",
+    "6th Level": "6º Nível",
+    "7th Level": "7º Nível",
+    "8th Level": "8º Nível",
+    "9th Level": "9º Nível"
+  },
+  "entries": {
+    "Acid Arrow": {
+      "name": "Flecha Ácida",
+      "description": "<p>Uma flecha ácida</p>"
+    },
+    "Blade Ward": {
+      "name": "Espada Ward",
+      "description": ""
+    },
+    "Dancing Lights": {
+      "name": "",
+      "description": ""
+    },
+    "Friends": {
+      "name": "Amigos",
+      "description": ""
+    },
+    "Light": {
+      "name": "Luz",
+      "description": "<p>Você toca um objeto que não tenha mais 3 metros em qualquer dimensão. Até a magia acabar, o objeto emite luz plena num raio de 6 metros e penumbra por 6 metros adicionais. Cobrir o objeto completamente com alguma coisa opaca bloqueará a luz. A magia termina se você conjura-la novamente ou dissipa-la com uma ação.<br>Se você tentar afetar um objeto segurado ou vestido por uma criatura hostil, a criatura deve ser bem sucedida num teste de Destreza para evitar a magia.</p>"
+    },
+    "Burning Hands": {
+      "name": "Mãos Flamejantes",
+      "description": "<p>Conforme você segura suas mãos com os polegares se tocando e os dedos abertos, uma fina camada de chamas emerge das pontas dos seus dedos estendidos. Cada criatura em um cone de 4,5 metros [15-foot cone] deve realizar um teste de resistência de Destreza. Uma criatura sofre 3d6 de dano de fogo se falhar no teste, ou metade desse dano se obtiver sucesso.<br>O fogo incendeia qualquer objeto inflamável na área que não esteja sendo vestido ou carregado.<br>Em Níveis Superiores. Se você conjurar essa magia usando um espaço de magia de 2° nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 1°.</p>"
+    },
+    "Mage Hand": {
+      "name": "Mão Maga",
+      "description": ""
+    },
+    "Mending": {
+      "name": "",
+      "description": ""
+    },
+    "Message": {
+      "name": "Mensagem",
+      "description": ""
+    },
+    "Minor Illusion": {
+      "name": "Ilusão Menor",
+      "description": "<p>Você cria um som ou uma imagem de um objeto, dentro do alcance, que permanece pela duração. A ilusão também termina se você dissipa-la usando uma ação ou conjurar essa magia novamente.<br>Se você criar um som, seu volume pode variar entre um sussurro até um grito. Pode ser a sua voz, a voz de outrem, o rugido de um leão, batidas de tambor ou qualquer outro som que você quiser. O som permanece no mesmo volume durante toda duração ou você pode fazer sons distintos em momentos diferentes, antes da magia acabar.<br>Se você criar uma imagem de um objeto – como uma cadeira, pegadas de lama ou um pequeno baú – ela não pode ter mais de 1,5 metro cúbico. A imagem não pode produzir som, luz, cheiro ou qualquer outro efeito sensorial. Interação física com a imagem revelará que ela é uma ilusão, já que as coisas podem atravessa-la.<br>Se uma criatura usar sua ação para examinar a imagem, ela pode determinar que ela é uma ilusão se obtiver sucesso num teste de Inteligência (Investigação) contra a CD da magia. Se uma criatura discernir a ilusão como sendo isso, a ilusão se tornará suave para a criatura.</p>"
+    },
+    "Poison Spray":{
+      "name": "Rajada de Veneno",
+      "description": "<p> Você ergue sua mão em direção de uma criatura que você possa ver, dentro do alcance e projeta um sopro de gás tóxico da sua palma. A criatura deve ser bem sucedida num teste de resistência de Constituição ou sofrerá 1d12 de dano de veneno.<br>O dano dessa magia aumenta em 1d12 quando você alcança o 5° nível (2d12), 11° nível (3d12) e 17° nível (4d12).</p>"
+    },
+    "Prestidigitation": {
+      "name": "Prestidigitação",
+      "description": ""
+    },
+    "True Strike": {
+      "name": "Pancada Verdadeira",
+      "description": ""
+    },
+    "Vicious Mockery": {
+      "name": "Zombação Viciosa",
+      "description": ""
+    },
+    "Fire Bolt":{
+      "name":"Rajada Ígnea",
+      "description":"<p>Você lança uma rajada de fogo em um alvo dentro do alcance. Se acertar, o alvo leva 1d10 de dano de fogo. Um objeto inflamável que seja atinjido por esse projétil entra em chamas.<br> O dano desse feitiço aumenta em 1d10 quando você chega ao nível 5 (2d10), nível 11 (3d10) e nível 17 (4d10).</p>"
+    }
+  }
+}

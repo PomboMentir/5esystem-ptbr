@@ -3,7 +3,7 @@ name: Module Builder
 on:
   create:
     tags:
-      - v*
+      - *
   push:
     branches:
       - main

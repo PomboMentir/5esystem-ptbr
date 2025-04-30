@@ -1,9 +1,6 @@
 name: Module Builder
 
 on:
-  create:
-    tags:
-      - "*"
   push:
     tags:
       - "*"

@@ -2,7 +2,7 @@
   "id": "DND5e-PTBR",
   "title": "DND5e PTBR",
   "description": "Traduz o sistema DND5e para Português do Brasil",
-  "version": "v0.0.1",
+  "version": "0.0.2-1",
   "authors": [
     {
       "name": "Pombo",
@@ -13,6 +13,7 @@
     "minimum": "12",
     "verified": "12.331"
   },
+  "esmodules": ["babele-register.js"],
   "relationships": {
     "requires": [
       {
@@ -37,5 +38,6 @@
       "flags": {}
     }
   ],
-  "manifest": ""
+  "manifest": "https://raw.githubusercontent.com/PomboMentir/5esystem-ptbr/refs/heads/main/module.json",
+  "download": "https://github.com/PomboMentir/5esystem-ptbr/releases/download/0.0.2-1/module.zip"
 }

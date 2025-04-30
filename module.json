@@ -13,6 +13,7 @@
     "minimum": "12",
     "verified": "12.331"
   },
+  "esmodules": ["babele-register.js"],
   "relationships": {
     "requires": [
       {

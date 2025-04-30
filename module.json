@@ -37,6 +37,6 @@
       "flags": {}
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/PomboMentir/5esystem-ptbr/refs/heads/main/module.json"
+  "manifest": "https://raw.githubusercontent.com/PomboMentir/5esystem-ptbr/refs/heads/main/module.json",
   "download": "https://github.com/PomboMentir/5esystem-ptbr/releases/latest/download/module.zip"
 }

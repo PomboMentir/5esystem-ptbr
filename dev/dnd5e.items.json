@@ -1,13 +1,13 @@
 {
-  "label": "Items (SRD)",
+  "label": "Itens (SRD)",
   "mapping": {
     "sources": {
       "path": "system.source",
-      "converter": "source"
+      "converter": "origem"
     },
     "weight": {
       "path": "system.weight",
-      "converter": "weight"
+      "converter": "peso"
     },
     "rangeActivities": {
       "path": "system.activities",
@@ -15,35 +15,35 @@
     },
     "range": {
       "path": "system.range",
-      "converter": "range"
+      "converter": "alcance"
     },
     "effects": {
       "path": "effects",
-      "converter": "effects"
+      "converter": "efeitos"
     },
     "activities": {
       "path": "system.activities",
-      "converter": "activities"
+      "converter": "atividades"
     }
   },
   "folders": {
-    "Wand": "Wand",
-    "Ring": "Ring",
+    "Wand": "Varinha",
+    "Ring": "Anel",
     "Rod": "Rod",
-    "Equipment Packs": "Equipment Packs",
-    "Armor": "Armor",
-    "Weapon": "Weapon",
-    "Ammunition": "Ammunition",
-    "Container": "Container",
-    "Trinket": "Trinket",
-    "Poison": "Poison",
-    "Equipment": "Equipment",
+    "Equipment Packs": "Pacotes de Equipamentoz",
+    "Armor": "Armadura",
+    "Weapon": "Armas",
+    "Ammunition": "Munições",
+    "Container": "Containers",
+    "Trinket": Amuleto",
+    "Poison": "Veneno",
+    "Equipment": "Equipamento",
     "Loot": "Loot",
-    "Food": "Food",
-    "Scroll": "Scroll",
-    "Potion": "Potion",
-    "Tool": "Tool",
-    "Spellcasting Focus": "Spellcasting Focus"
+    "Food": "Comida",
+    "Scroll": "Pergaminho",
+    "Potion": "Poção",
+    "Tool": "Ferramenta",
+    "Spellcasting Focus": "Foco de Lançamento de Feitiço"
   },
   "entries": {
     "Studded Leather Armor +3": {
@@ -59,7 +59,7 @@
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Dagger": {
-      "name": "Dagger",
+      "name": "Adaga",
       "description": "<p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p>"
     },
     "Ioun Stone of Strength": {
@@ -76,7 +76,7 @@
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Candle": {
-      "name": "Candle",
+      "name": "Vela",
       "description": "<p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>"
     },
     "Jug": {
@@ -88,15 +88,15 @@
       "description": "<p>These special tools include the items needed to pursue a craft or trade in tinkering.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>"
     },
     "Paper": {
-      "name": "Paper",
-      "description": "<p>A single sheet of paper.</p>"
+      "name": "Papel",
+      "description": "<p>Uma única folha de papel.</p>"
     },
     "Longsword": {
-      "name": "Longsword",
+      "name": "Espada Longa",
       "description": "<p>A lengthy straight blade designed for slashing foes, the longsword is a highly versatile weapon that may also be wielded with two hands for more punishing strikes.</p>"
     },
     "Hammer": {
-      "name": "Hammer",
+      "name": "Marreta",
       "description": "<p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>"
     },
     "Adamantine Half Plate Armor": {
@@ -112,16 +112,16 @@
       "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>"
     },
     "Ring of Invisibility": {
-      "name": "Ring of Invisibility",
+      "name": "Anel da Invisibilidade",
       "description": "<p><em>(Requires attunement)</em></p>\n<p>While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.</p>",
       "activities": {
         "Become Invisible": {
-          "name": "Become Invisible"
+          "name": "Tornar-se invisível"
         }
       },
       "effects": {
         "Invisibility": {
-          "name": "Invisibility"
+          "name": "Invisibilidade"
         }
       }
     },
@@ -134,7 +134,7 @@
       "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>"
     },
     "Greataxe": {
-      "name": "Greataxe",
+      "name": "Machado de duas mãos",
       "description": "<p>This enormous axe features two twin crescent blades mounted on either side of a tall spiked shaft. Designed to be wielded with two hands and cleave foes in twain.</p>"
     },
     "Vicious Shortsword": {
@@ -167,11 +167,11 @@
       }
     },
     "Torch": {
-      "name": "Torch",
+      "name": "Tocha",
       "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>"
     },
     "Rope of Climbing": {
-      "name": "Rope of Climbing",
+      "name": "Corda de Escalada",
       "description": "<p><em>Wondrous item</em></p>\n<p>This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.</p>\n<p>If you tell the rope to knot, large knots appear at 1- foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.</p>\n<p>The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.</p>",
       "activities": {
         "utility": {
@@ -189,7 +189,7 @@
       }
     },
     "Mace +3": {
-      "name": "Mace +3",
+      "name": "Maça +3",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Nine Lives Stealer Shortsword": {
@@ -215,7 +215,7 @@
       }
     },
     "Chest": {
-      "name": "Chest",
+      "name": "Baú",
       "description": "<p>A chest holds 12 cubic feet or 300 pounds of gear.</p>"
     },
     "War Pick": {
@@ -240,7 +240,7 @@
       }
     },
     "Scimitar +3": {
-      "name": "Scimitar +3",
+      "name": "Cimitarra +3",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Ring of Evasion": {
@@ -380,7 +380,7 @@
       "description": "<p><em>Wondrous Item (requires attunement)</em></p><p>While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p>"
     },
     "Dagger +1": {
-      "name": "Dagger +1",
+      "name": "Adaga +1",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Vicious Dagger": {
@@ -1175,7 +1175,7 @@
       "description": "<p>Padded armor consists of quilted layers of cloth and batting. Padded armor offers a comparable level of protection as stiffened leather but is somewhat less encumbering to the wearer.</p>"
     },
     "Longsword +3": {
-      "name": "Longsword +3",
+      "name": "Espada Longa +3",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Backpack": {
@@ -1259,7 +1259,7 @@
       "description": "<p><em>Wondrous item</em></p>\n<p>This yellow diamond contains a mote of elemental energy. When you use an action to break the gem, an @UUID[Compendium.dnd5e.monsters.Actor.sApYLZj9PTZ40wJr]{Earth Elemental} is summoned as if you had cast the @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental} spell, and the gem's magic is lost.</p>"
     },
     "Longsword +1": {
-      "name": "Longsword +1",
+      "name": "Espada Longa +1",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Arrow +3": {
@@ -1477,7 +1477,7 @@
       "description": "<p><em>Wondrous item, (requires attunement)</em></p>\n<p>While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn.</p>\n<p>This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.</p>"
     },
     "Dagger +2": {
-      "name": "Dagger +2",
+      "name": "Adaga +2",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Ring Mail +2": {
@@ -2060,11 +2060,11 @@
       "description": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>"
     },
     "Scimitar +1": {
-      "name": "Scimitar +1",
+      "name": "Cimitarra +1",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Scimitar +2": {
-      "name": "Scimitar +2",
+      "name": "Cimitarra +2",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Wand of Secrets": {
@@ -2504,7 +2504,7 @@
       "description": "<p><em>(Requires attunement by a spellcaster)</em></p>\n<p>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Lightning Bolt} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>\n<p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>"
     },
     "Dagger +3": {
-      "name": "Dagger +3",
+      "name": "Adaga +3",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Viol": {
@@ -2512,7 +2512,7 @@
       "description": "<p>A viol to evoke awe, wonder, or fear in your audience.</p>\n<p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>"
     },
     "Longsword +2": {
-      "name": "Longsword +2",
+      "name": "Espada Longa +2",
       "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>"
     },
     "Staff of Swarming Insects": {
@@ -2834,7 +2834,7 @@
       "description": "<p><em>(Requires attunement)</em></p>\n<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.</p>\n<p><strong>Luck</strong>. If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can't be used again until the next dawn.</p>\n<p><strong>Wish</strong>. The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast the @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Wish} spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.</p>"
     },
     "Scimitar": {
-      "name": "Scimitar",
+      "name": "Cimitarra",
       "description": "<p>This curved blade is narrow near the wrapped handle but broadens towards a gleaming tip.</p>"
     },
     "Efreeti Bottle": {

@@ -5,8 +5,8 @@ on:
     tags:
       - "*"
   push:
-    branches:
-      - main
+    tags:
+      - "*"
   
   
 jobs:

@@ -2,8 +2,6 @@ name: Module Builder
 
 on:
   push:
-    tags:
-      - '*'
     branches:
       - main
   

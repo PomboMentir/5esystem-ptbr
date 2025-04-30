@@ -1,9 +1,9 @@
 name: Module Builder
 
 on:
-  push:
-    branches:
-      - main
+  create:
+    tags:
+      - "*"
   
   
 jobs:
